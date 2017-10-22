@@ -1,0 +1,294 @@
+.clearfix::after{
+	content:"";
+	display: table;
+	clear:both;
+}
+.container{
+	width:900px;
+	margin:0 auto;
+}
+.header{
+	background-color: #eeeeee;
+}
+.top-menu{
+	width:750px;
+	float:left;
+}
+.top-menu ul{
+	list-style: none;
+	margin:0;
+	padding: 0;
+	font-size:0; 
+}
+.top-menu a{
+	display: block;
+	text-decoration:none; 
+	font-family: 'Roboto', sans-serif;
+	color:#000000; 
+}
+.top-menu a:hover{
+	color:#fb565a;  
+}
+.top-menu a:active{
+	color:#8f8f8f;
+}
+.top-menu li{
+	display:inline-block;
+	vertical-align:top;
+	font-size:14px;
+	line-height:30px;
+	padding-top:60px;
+	padding-right:45px; 
+
+}
+.top-menu .logo-inner{
+	float:left;
+	padding-top:27px;
+	margin-right:180px;  
+}
+.basket{
+	display:inline-block; 
+	vertical-align:top; 
+	float:right;
+	width:110px;
+	padding-top:60px;
+}
+.basket a{
+	display:block; 
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-size:14px;
+	line-height:30px;
+}
+.basket a:hover{
+	color:#fb565a;
+}
+.basket a:active{
+	color:#8f8f8f;
+}
+
+.slider-image{
+	float:right;
+	padding-bottom:75px;
+
+}
+.slider h2{
+	font-family: 'Roboto', sans-serif;
+	font-size:36px;
+	color:#000000; 
+}
+.slider p{
+	font-family: 'Roboto', sans-serif;
+	color:#283136;
+	font-size:16px;
+	line-height:22px;
+}
+.btn{
+	width:240px;
+	background-color:#fb565a;
+	color:#ffffff;
+	font-family: 'Roboto', sans-serif;
+	font-size:12px;
+	line-height:18px;
+	padding:12px 68px;  
+	border-radius: 10px;
+}
+.right-slider{
+	float:left;
+}
+.slider{
+	padding-top:160px; 
+}
+.featured b{
+	font-size:18px;
+	line-height:30px;
+	color:#000000;
+
+}
+.featured p{
+	font-size:15px;
+	line-height:22px;
+	color:#283136;  
+}
+.featured img{
+	padding-bottom:25px;
+}
+
+.advantage{
+	display:inline-block;
+	vertical-align:top; 
+	width:245px;
+	margin-top:80px;
+	margin-right:50px;
+}
+.websites .btn{
+	background-color:#fb565a; 
+	width:140px;
+	padding:12px 30px;   
+}
+.websites .btn:hover{
+	background-color:#d6494d;  
+}
+
+.websites .btn:active{
+	background-color:#b63538;  
+}
+.apps .btn{
+	background-color:#00ca74; 
+	width:140px;
+	padding:12px 30px;   
+}
+.apps .btn:hover{
+	background-color:#01a25e; 	   
+}
+.apps .btn:active{
+	background-color:#009053; 	   
+}
+.presentations .btn{
+	background-color:#efc84a; 
+	width:140px;
+	padding:12px 30px;	     
+}
+.presentations .btn:hover{
+background-color:#d6ae2c;
+}
+.presentations .btn:active{
+	background-color:#c09b24;
+}
+.left-studio{
+	float:left;
+	width:590px;
+}
+.left-studio h2{
+	font-size:36px;
+
+}
+.left-studio h4{
+	font-size:16px;
+	color:#283136; 
+}
+.left-studio p{
+	font-size:16px;
+	color:#283136; 
+	padding-bottom:46px; 
+}
+.left-studio li{
+	padding-bottom:30px;
+	list-style:none;
+	position:relative;  
+}
+.left-studio li:before {
+        content:  "—";
+        position: absolute;
+        left:-18px;
+        color:#fb565a;
+    }
+
+.left-studio li:first-child{
+	padding-top:30px;
+}
+.right-studio{
+	float:right;
+	width:250px; 
+}
+.right-studio li{
+	list-style:none;
+	padding-bottom:25px;
+	position:relative; 
+}
+.right-studio li::before{
+	content:  "—";
+        position: absolute;
+        left:-18px;
+        color:#fb565a; 
+}
+.studio-item{ 
+display:inline-block; 
+vertical-align:top; 
+margin-right:115px; 
+} 
+.studio-item:last-child{ 
+margin-right:0px; 
+} 
+.studio-item a { 
+opacity: 0.4; 
+
+} 
+.studio-item a:hover { 
+opacity: 1; 
+} 
+.studio-futer:before, 
+.studio-futer:after { 
+content: ""; 
+display: block; 
+background-color: #eeeeee; 
+height: 2px; 
+margin-left: 80px; 
+}
+.map{
+	margin-top:80px; 
+	background-image:url(map.png);
+	min-height:420px;
+	position:relative;   
+}
+.link{
+	width:250px; 
+	background-color:#ffffff;
+	position:absolute;
+	left:150px;
+	top:85px;   
+}
+.social{
+float:left;
+width:250px;
+}
+.futer-text{
+float:right;
+width:590px;
+}
+.modal-content{
+	position:absolute; 
+	width:470px;
+	padding:50px 80px;
+	bottom:-245px;
+	left:50%;
+	margin-left:-315px;
+	background-color:#ffffff;    
+	display:none; 
+}
+.modal-content-close{
+	position:absolute;
+	top:0;
+	right:0px;  
+	width:22px;
+	height:22px;
+	font-size:0;
+	background-color:red;
+	border:0;
+	outline:0;
+	cursor:pointer;     
+}
+.modal-content-close::after,
+.modal-content-close::before{
+	content:"";
+	position:absolute;
+	right:3px; 
+	width:19px;
+	height:3px;
+	background-color:#d0d0d0;
+	border-radius:1px;   
+}
+.modal-content-close::before{
+	transform:rotate(45deg); 
+}
+.modal-content-close::after{
+	transform:rotate(-45deg); 
+}
+.name{
+	float:left;
+	width:200px;
+}
+.mail{
+	float:right;
+	width:200px; 
+}
